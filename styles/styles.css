@@ -59,12 +59,8 @@ header {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   padding-inline: 10px;
-}
-
-.imagenprincipal p {
-  color: whitesmoke;
-  text-align: center;
-  padding: 15px;
+  display: flex;
+  position: absolute;
 }
 
 .pie {
