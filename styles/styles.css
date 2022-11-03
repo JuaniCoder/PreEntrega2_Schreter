@@ -130,6 +130,11 @@ body {
   font-size: 3rem;
 }
 
+.hero {
+  background-image: url("../img/hero-bg.jpg");
+  height: 90vh;
+}
+
 @media (min-width: 600px) {
   .wide {
     grid-column: span 2;
