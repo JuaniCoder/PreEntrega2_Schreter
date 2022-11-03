@@ -130,11 +130,6 @@ body {
   font-size: 3rem;
 }
 
-.hero {
-  background-image: url("./../imagenes/castle_winterfell.jpg");
-  height: 90vh;
-}
-
 @media (min-width: 600px) {
   .wide {
     grid-column: span 2;
