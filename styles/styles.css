@@ -131,7 +131,7 @@ body {
 }
 
 .hero {
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("./../imagenes/castle_winterfell.jpg");
   height: 90vh;
 }
 
