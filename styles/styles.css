@@ -7,13 +7,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-header {
-  background-color: black;
-  display: flex;
-  gap: 80px;
-  grid-gap: 80px;
-}
-
 .logo {
   width: 100px;
   padding: 10px;
