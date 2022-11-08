@@ -1,0 +1,26 @@
+.logo {
+  width: 100px;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+  grid-gap: 80px;
+  align-items: center;
+}
+
+.menu_item a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,43 @@
+.imagenprincipal {
+  height: 80vh;
+  background-image: url(./../imagenes/imagen\ principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 400px;
+  padding-bottom: 250px;
+
+  h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding-inline: 10px;
+    display: flex;
+    position: absolute;
+  }
+}
+
+.imagenprincipal {
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
